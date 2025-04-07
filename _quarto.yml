@@ -11,9 +11,10 @@ project:
 
 
 book:
-  title: "COMP/STAT112 Notebook"
-  author: "Your Name Here"
+  title: "project title"
+  author: ["student 1 first and last name", "student 2 first and last name", "student 3 first and last name"]
   date: today  # use today to update date published based on last time project was edited
+  date-format: full
   # favicon: images/logo.png
   reader-mode: true
   # site-url: https://hashcx.github.io/mac-comp112website-f24/
@@ -28,7 +29,7 @@ book:
 
 
   sidebar:
-    title: "Your Name Here"
+    title: "project sidebar title"
     collapse-level: 2
     style: "docked"
     pinned: true
@@ -37,19 +38,9 @@ book:
   chapters:
     - index.qmd
 
-    - part: "Section 1" # or src/s1/s1.qmd
-      chapters: 
-      - src/s1/s1-sample1.qmd
-      - src/s1/s1-sample2.qmd
-
-    - part: "Section 1" # or src/s2/s2.qmd
-      chapters: 
-      - src/s2/s2-sample1.qmd
-      - src/s2/s2-sample2.qmd
-
   appendices:
-  - src/appx/appx-sample1.qmd
-  - src/appx/appx-sample2.qmd
+  - src/appx/proposal.qmd
+  - src/appx/case-study.qmd
 
 
 
