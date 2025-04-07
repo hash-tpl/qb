@@ -1,39 +1,13 @@
-# Welcome {.unnumbered}
+---
+title: "Report"
+execute: 
+  echo: true      # change to true to show the code
+code-fold: false  # change to true to fold the code chunks
+---
 
-This is a quarto book template created by Amin Alhashim.  Use the side bar on the left for navigation.
-
-```{r}
-#| output: false
-#| echo: false
-
-packages <- c("wordcloud2", "here")
-```
+Your report will go here.
 
 ```{r}
-#| output: false
-#| echo: false
-
-install.packages(setdiff(packages, rownames(installed.packages())), repos = "http://cran.us.r-project.org")
-```
-
-```{r}
-#| output: false
-#| echo: false
-#| message: false
-
-lapply(packages, require, character.only = TRUE)
-```
-
-```{r}
-#| output: false
-#| echo: false
-
-ds <- read.csv(here("data", "msg.csv"))
-```
-
-```{r}
-#| echo: false
-
-wordcloud2(data = ds, shape = "cardioid")
+# this is a test code
 ```
 
