@@ -1,3 +1,6 @@
+# Creating Quarto Book
+# https://quarto.org/docs/books/
+#
 # options for Quarto book
 # https://quarto.org/docs/reference/projects/books.html
 #
@@ -38,19 +41,15 @@ book:
   chapters:
     - index.qmd
 
-    - part: "Effective Teamwork"
+    - part: "Section 1" # or src/s1/s1.qmd
       chapters:
-        - src/m1/et.qmd
-        - src/m2/et.qmd
-        - src/m3/et.qmd
-        - src/m4/et.qmd
+      - src/s1/s1-sample1.qmd
+      - src/s1/s1-sample2.qmd
 
-    - part: "EDA"
+    - part: "Section 1" # or src/s2/s2.qmd
       chapters:
-        - src/m1/eda.qmd
-        - src/m2/eda.qmd
-        - src/m3/eda.qmd
-        - src/m4/eda.qmd
+      - src/s2/s2-sample1.qmd
+      - src/s2/s2-sample2.qmd
 
   appendices:
   - src/appx/proposal.qmd
