@@ -14,8 +14,8 @@ project:
 
 
 book:
-  title: "COMP/STAT112 Notebook"
-  author: "Your Name Here"
+  title: "project title"
+  author: ["Member 1 first and last name", "Member 2 first and last name", "Member 3 first and last name", "Member 4 first and last name"]
   date: today  # use today to update date published based on last time project was edited
   date-format: full
   # favicon: images/logo.png
@@ -32,7 +32,7 @@ book:
 
 
   sidebar:
-    title: "Your Name Here"
+    title: "sidebar title"
     collapse-level: 2
     style: "docked"
     pinned: true
@@ -52,8 +52,8 @@ book:
       - src/s2/s2-sample2.qmd
 
   appendices:
-  - src/appx/appx-sample1.qmd
-  - src/appx/appx-sample2.qmd
+  - src/appx/proposal.qmd
+  - src/appx/case-study.qmd
 
 
 
