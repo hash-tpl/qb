@@ -41,15 +41,19 @@ book:
   chapters:
     - index.qmd
 
-    - part: "Section 1" # or src/s1/s1.qmd
+    - part: "Effective Teamwork"
       chapters:
-      - src/s1/s1-sample1.qmd
-      - src/s1/s1-sample2.qmd
+        - src/m1/et.qmd
+        - src/m2/et.qmd
+        - src/m3/et.qmd
+        - src/m4/et.qmd
 
-    - part: "Section 1" # or src/s2/s2.qmd
+    - part: "EDA"
       chapters:
-      - src/s2/s2-sample1.qmd
-      - src/s2/s2-sample2.qmd
+        - src/m1/eda.qmd
+        - src/m2/eda.qmd
+        - src/m3/eda.qmd
+        - src/m4/eda.qmd
 
   appendices:
   - src/appx/proposal.qmd
